@@ -1,0 +1,126 @@
+body{
+    background: whitesmoke;
+    border: 2px solid blue;
+    padding: 0%;
+    margin: 0%;
+}
+/*aplicando fondo a nav bar contendor primario-*/
+#contenedor-ul{
+ background: rgb(11, 74, 95);
+}
+/*contennedor de todos los li con la img*/
+#cont-li{
+ 
+ width: 1330px;
+ height: 50px;
+
+}
+/*img del logo posionada en la esquinza superion izquierda del navbar*/
+#logo{
+    width: 100px;
+    height: 69px;
+    border-radius: 25px;
+}
+/*diseño de caba uno de los items*/
+#right-item {
+   height:  50px;
+   margin: 0px auto;
+    display: block;
+}
+/*este es para mover los item hacia la derecha*/
+#item-li{
+    display: flex;
+    margin: 0px 1090px;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+/* fin de este es para mover los item hacia la derecha*/
+/*hacer que sea un bloque ek ul y li*/
+
+ul li a:hover{
+    display: block;
+    background: blanchedalmond;
+    color: black;
+}
+
+/*fin del estilo del navbar  de la pagina principal*/
+/*diseño del carrucel*/
+/*seccion del carrucel*/
+#seccion-carrucel{
+    padding: 20px;
+    margin: 0px auto;
+    width: 100%;
+    height: 290px;
+    background: #CFB2B2;
+
+}
+/*diseño del div  carrucel*/
+#carrucel{
+    /*border: 2px solid rgb(7, 1, 1);*/
+    width: 600px;
+    height: 300px;
+    margin: 0em 350px;
+}
+
+/*fin de diseño del carrucel
+/*diseño de video */
+/*seccion del video*/
+#seccion-video{
+   /* background: #F1ECEB;*/
+   
+    height: 408px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*border: 30px solid purple;*/
+    
+}
+#contenedor-videos{
+    /*border: 25px solid orange;*/
+    height: 400px;
+    width: 100%;
+}
+/*escala de iframe*/
+#Video{
+    height: 380px;
+    width: 100%;
+    /*border: 25px solid brown;*/
+}
+/*fin del diseño de video */
+/*diseño de la parte de mision y vision*/
+#mision, #vision{
+   /* border: 2px solid black;*/
+    width: 500px;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    border: 1px solid black;
+    /*background: tomato;*/
+}
+/*#seccion-mision-vision{
+   /* border: 25px soli brown;*/
+   /* background: pink;/*
+}*/
+#article-mision-vision{
+    margin: auto 120px;
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns:repeat( 3,1fr);
+    /*border: 15px soli yellowgreen;*/
+   /* background: grey;*/
+}
+/*contenedor de la articulo de la mision y vision*/
+#seccion-mision-vision{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/*diseño del footer*/
+#footer{
+    
+    background: rgb(11, 74, 95);
+}
