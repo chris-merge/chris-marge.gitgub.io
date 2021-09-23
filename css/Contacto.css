@@ -59,9 +59,9 @@ ul li a:hover{
     width: 100%;
 }
 .red1{
-    /*border:2px solid blueviolet;*/
+    border:32px solid blueviolet;
     height: auto;
-    width: 250px;
+    width: 150px;
 }
 .red2{
     /*border: 3px solid green;*/
@@ -96,4 +96,10 @@ button{
 textarea{
     width: 100%;
     height: 100px;
+}
+/*modal de la ventana de la ubicacion*/
+#Card_ubicacion{
+    display: none;
+    width: auto;
+    height: auto;
 }

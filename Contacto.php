@@ -73,9 +73,9 @@
     ?>
       </div>
     <div class="contendor_contactos">
-        <div class="red1" ><a href="#"id="link_red" class="waves-effect blue lighten-3 btn"><h3>FACEBOOK</h3></a></div>
-        <div class="red2" ><a href="#"id="link_red" class="waves-effect blue lighten-3 btn"><h3>WHATSAPP</h3></a></div>
-        <div class="red3" ><a href="#"id="link_red" class="waves-effect blue lighten-3 btn"><h3>INSTAGRAM</h3></a></div>
+        <a href="#" id="link_red" class="waves-effect blue lighten-3 btn">FACEBOOK</a>
+        <a href="#"id="link_red" class="waves-effect blue lighten-3 btn">WHATSAPP</a>
+        <a href="#"id="link_red" class="waves-effect blue lighten-3 btn">INSTAGRAM</a>
     </div>
     
 </body>

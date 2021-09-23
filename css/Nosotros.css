@@ -67,3 +67,28 @@ section,.row{
     width: 500px;
     margin: 0px auto;
 }
+#Card_ubicacion{
+    display: none;
+    background:#FCD2D1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    float: left;
+    opacity: transparent;
+}
+#bordes_card{
+    background: #FE8F8F;
+}
+#ubicacion{
+    animation-name: Move;
+    animation-duration: 4s;
+    animation-direction:alternate;
+    animation-fill-mode:forwards;
+}
+@keyframes Move {
+    from {margin: 0.2em 0;}
+    to {margin-left: 400px;}
+ }

@@ -12,6 +12,25 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+  	<!-- seccion del nav bar-->
+	<div>
+		<nav>
+			<div id="contenedor-ul" class="nav-wrapper">
+				<ul id="cont-li" class="left">
+					
+					<li><img id="logo" src="imgs/Vidriria_Mana.jpg" alt="logo"></li>
+					<div id="item-li">
+					<li id="right-item"><a href="index.html"><strong>Inicio</strong></a></li>
+					<li id="right-item"><a href="Nosotros.html"><strong>Nosotros</strong></a></li>
+					<li id="right-item"><a href="Contacto.php"><strong>Contacto</strong></a></li>
+					<!-- <li id="right-item"><a href="Producto.html"><strong>Producto</strong> </a></li>-->
+					<li id="right-item"><a href="Catalogo.html"><strong>Catalogo</strong></a></li>
+				</div>
+				</ul>
+			</div>
+		</nav>
+
+	</div>
     <div class="row">
         <div id="contenedor-card" class="col s12 m7">
           <div  class="card">
@@ -19,31 +38,62 @@
               <img src="imgs/CRISTIAN .png">
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p>
+                Somos profesionales en el desarrollo y manejo de software, comprometidos a brindar 
+                confianza y mejorar la calidad de vida de nuestros clientes.
+              </p>
             </div>
             <div class="card-action">
-              <a href="#" onclick="Infor_Dev()">This is a link</a>
+              <a href="#" onclick="Infor_Dev()">Más</a>
             </div>
           </div>
         </div>
       </div>
       <!--Modal-->
       <div id="Modal_Dev" >
-        <div class="col s12 m6">
-          <div class="card blue-grey darken-1">
+        <div id="Cards_position" class="col s12 m6">
+          <div id="Card_conten" class="card blue-grey darken-1">
             <div class="card-content white-text">
-              <span class="card-title">Card Title</span>
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <span class="card-title">Desarrolladores</span>
+              <span id="btn_close" onclick="dev_close()"> <i class="material-icons">close</i></span>
+              <ul class="collection">
+                <li class="collection-item avatar">
+                  <img src="imgs/dev1.jpg" alt="" class="circle">
+                  <span class="title">Desarrollador</span>
+                  <p class="title">Francisco 
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">phone</i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <img src="imgs/dev2.jpg" alt="" class="circle">
+                  <span class="title">Desarrollador</span>
+                  <p class="title">CRISTIAN
+                  </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">phone</i></a>
+                </li>
+              </ul>
+
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
-              <a href="#">This is a link</a>
+              <a href="#">whatsapp</a>
             </div>
           </div>
         </div>
       </div>
 </body>
+<footer>
+	<nav id="footer">
+		<div>
+			<ul>
+
+				<li> © 2014 Copyright</li>
+				<li><a href="#!"> <i class=""></i></a></li>
+				<li><a href="#" >Instagram</a></li>
+				<li><a href="developer.html" > Developer</a></li>
+			</ul>
+		</div>
+	</nav>
+</footer>
 <script src="js/Modal_Dev.js"></script>
+<script src="js/Close_devjs.js"></script>
 </html>
